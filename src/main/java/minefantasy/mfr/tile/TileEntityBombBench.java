@@ -93,7 +93,7 @@ public class TileEntityBombBench extends TileEntityBase implements IBasicMetre {
 
 	public boolean tryCraft(EntityPlayer player, boolean pressUsed) {
 		boolean sticky = !pressUsed
-				&& ResearchLogic.getResearchCheck(player, MineFantasyKnowledgeList.sticky_bomb)
+				&& ResearchLogic.getResearchCheck(player, InformationList.getEntry("sticky_bomb"))
 				&& !player.getHeldItemMainhand().isEmpty()
 				&& player.getHeldItemMainhand().getItem() == Items.SLIME_BALL;
 		if (!world.isRemote && sticky && applySlime()) {

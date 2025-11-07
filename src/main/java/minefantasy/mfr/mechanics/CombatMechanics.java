@@ -915,7 +915,7 @@ public class CombatMechanics {
 	}
 
 	private static float modifyPlayerDamage(EntityPlayer hit, float dam) {
-		if (ResearchLogic.hasInfoUnlocked(hit, MineFantasyKnowledgeList.toughness)) {
+		if (ResearchLogic.hasInfoUnlocked(hit, InformationList.getEntry("toughness"))) {
 			dam *= 0.9F;// 10% Resist
 		}
 		return dam;

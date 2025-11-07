@@ -81,7 +81,7 @@ public class BlockCrucible extends BlockTileEntity<TileEntityCrucible> {
 	public boolean onBlockActivated(final World world, BlockPos pos, IBlockState state, EntityPlayer player, EnumHand hand, EnumFacing side, float hitX, float hitY, float hitZ) {
 		TileEntityCrucible tile = (TileEntityCrucible) getTile(world, pos);
 		if (tile != null) {
-			if (!ResearchLogic.getResearchCheck(player, MineFantasyKnowledgeList.smelt_bronze)) {
+			if (!ResearchLogic.getResearchCheck(player, InformationList.getEntry("smelt_bronze"))) {
 				if (!world.isRemote && hand == player.getActiveHand()) {
 					player.sendMessage(new TextComponentTranslation("knowledge.unknownUse"));
 				}

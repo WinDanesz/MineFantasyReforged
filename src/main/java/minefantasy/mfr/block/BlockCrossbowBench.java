@@ -60,7 +60,7 @@ public class BlockCrossbowBench extends BlockTileEntity<TileEntityCrossbowBench>
 	 */
 	@Override
 	public boolean onBlockActivated(World world, BlockPos pos, IBlockState state, EntityPlayer player, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
-		if (!ResearchLogic.getResearchCheck(player, MineFantasyKnowledgeList.crossbows)) {
+		if (!ResearchLogic.getResearchCheck(player, InformationList.getEntry("crossbows"))) {
 			if (!world.isRemote && hand == player.getActiveHand()) {
 				player.sendMessage(new TextComponentTranslation("knowledge.unknownUse"));
 			}
@@ -77,7 +77,7 @@ public class BlockCrossbowBench extends BlockTileEntity<TileEntityCrossbowBench>
 
 	@Override
 	public void onBlockClicked(World world, BlockPos pos, EntityPlayer player) {
-		if (ResearchLogic.getResearchCheck(player, MineFantasyKnowledgeList.crossbows)) {
+		if (ResearchLogic.getResearchCheck(player, InformationList.getEntry("crossbows"))) {
 			TileEntityCrossbowBench tile = (TileEntityCrossbowBench) getTile(world, pos);
 			if (tile != null) {
 				tile.tryCraft(player);
