@@ -1,0 +1,18 @@
+{
+  "_comment": "Example artefact mapping for the custom entry",
+  "_description": "These items, when found by the player, will provide clues to unlock the knowledge entry",
+  
+  "knowledge_entry": "example_custom_entry",
+  "artefacts": [
+    {
+      "type": "block",
+      "id": "minefantasyreforged:copper_ore",
+      "_comment": "Finding copper ore gives a clue"
+    },
+    {
+      "type": "item",
+      "id": "minefantasyreforged:tin_ingot",
+      "_comment": "Finding tin ingot gives another clue"
+    }
+  ]
+}
