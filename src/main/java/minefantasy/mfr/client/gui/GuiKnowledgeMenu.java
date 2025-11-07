@@ -3,7 +3,6 @@ package minefantasy.mfr.client.gui;
 import codechicken.lib.texture.TextureUtils;
 import minefantasy.mfr.MineFantasyReforged;
 import minefantasy.mfr.constants.Skill;
-import minefantasy.mfr.init.MineFantasyKnowledgeList;
 import minefantasy.mfr.mechanics.RPGElements;
 import minefantasy.mfr.mechanics.knowledge.InformationBase;
 import minefantasy.mfr.mechanics.knowledge.InformationList;

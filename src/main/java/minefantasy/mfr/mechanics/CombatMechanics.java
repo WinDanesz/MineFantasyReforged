@@ -18,7 +18,6 @@ import minefantasy.mfr.constants.Skill;
 import minefantasy.mfr.entity.EntityCogwork;
 import minefantasy.mfr.entity.Shockwave;
 import minefantasy.mfr.entity.mob.EntityMinotaur;
-import minefantasy.mfr.init.MineFantasyKnowledgeList;
 import minefantasy.mfr.init.MineFantasySounds;
 import minefantasy.mfr.item.ItemBattleaxe;
 import minefantasy.mfr.item.ItemDagger;
