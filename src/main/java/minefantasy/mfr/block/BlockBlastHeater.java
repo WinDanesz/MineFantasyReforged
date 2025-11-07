@@ -2,6 +2,7 @@ package minefantasy.mfr.block;
 
 import minefantasy.mfr.init.MineFantasyTabs;
 import minefantasy.mfr.mechanics.knowledge.ResearchLogic;
+import minefantasy.mfr.mechanics.knowledge.InformationList;
 import minefantasy.mfr.registry.recipe.CraftingManagerBlastFurnace;
 import minefantasy.mfr.tile.blastfurnace.TileEntityBlastHeater;
 import net.minecraft.block.Block;

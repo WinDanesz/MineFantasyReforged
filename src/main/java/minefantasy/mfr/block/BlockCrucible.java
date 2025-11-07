@@ -6,6 +6,7 @@ import minefantasy.mfr.init.MineFantasyItems;
 import minefantasy.mfr.init.MineFantasyTabs;
 import minefantasy.mfr.item.ItemFilledMould;
 import minefantasy.mfr.mechanics.knowledge.ResearchLogic;
+import minefantasy.mfr.mechanics.knowledge.InformationList;
 import minefantasy.mfr.registry.recipe.CraftingManagerAlloy;
 import minefantasy.mfr.registry.recipe.IRecipeMFR;
 import minefantasy.mfr.tile.TileEntityCrucible;

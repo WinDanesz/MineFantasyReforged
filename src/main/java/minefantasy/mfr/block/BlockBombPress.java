@@ -6,6 +6,7 @@ import minefantasy.mfr.client.model.block.ModelDummyParticle;
 import minefantasy.mfr.client.render.block.TileEntityBombPressRenderer;
 import minefantasy.mfr.init.MineFantasyTabs;
 import minefantasy.mfr.mechanics.knowledge.ResearchLogic;
+import minefantasy.mfr.mechanics.knowledge.InformationList;
 import minefantasy.mfr.proxy.IClientRegister;
 import minefantasy.mfr.tile.TileEntityBombPress;
 import net.minecraft.block.BlockHorizontal;

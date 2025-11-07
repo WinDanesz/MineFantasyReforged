@@ -25,6 +25,7 @@ import minefantasy.mfr.item.ItemKatana;
 import minefantasy.mfr.item.ItemWaraxe;
 import minefantasy.mfr.item.ItemWeaponMFR;
 import minefantasy.mfr.mechanics.knowledge.ResearchLogic;
+import minefantasy.mfr.mechanics.knowledge.InformationList;
 import minefantasy.mfr.network.DodgeCommandPacket;
 import minefantasy.mfr.network.NetworkHandler;
 import minefantasy.mfr.network.ParryPacket;

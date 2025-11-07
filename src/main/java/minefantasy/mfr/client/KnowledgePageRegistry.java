@@ -19,6 +19,7 @@ import minefantasy.mfr.config.ConfigHardcore;
 import minefantasy.mfr.init.MineFantasyBlocks;
 import minefantasy.mfr.init.MineFantasyItems;
 import minefantasy.mfr.init.MineFantasyKnowledgeList;
+import minefantasy.mfr.mechanics.knowledge.InformationList;
 import minefantasy.mfr.registry.recipe.CraftingManagerAlloy;
 import minefantasy.mfr.registry.recipe.CraftingManagerAnvil;
 import minefantasy.mfr.registry.recipe.CraftingManagerBlastFurnace;

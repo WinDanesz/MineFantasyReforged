@@ -2,6 +2,7 @@ package minefantasy.mfr.block;
 
 import minefantasy.mfr.init.MineFantasyTabs;
 import minefantasy.mfr.mechanics.knowledge.ResearchLogic;
+import minefantasy.mfr.mechanics.knowledge.InformationList;
 import minefantasy.mfr.tile.TileEntityCrossbowBench;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;

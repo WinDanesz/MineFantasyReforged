@@ -12,6 +12,7 @@ import minefantasy.mfr.item.ItemBomb;
 import minefantasy.mfr.item.ItemBombComponent;
 import minefantasy.mfr.item.ItemExplodingArrow;
 import minefantasy.mfr.mechanics.knowledge.ResearchLogic;
+import minefantasy.mfr.mechanics.knowledge.InformationList;
 import minefantasy.mfr.network.NetworkHandler;
 import minefantasy.mfr.util.ToolHelper;
 import net.minecraft.client.resources.I18n;
