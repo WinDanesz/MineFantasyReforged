@@ -84,9 +84,6 @@ public class ArtefactLoader {
 
 				Loader.instance().setActiveModContainer(mod);
 
-				if (!"json".equals(FilenameUtils.getExtension(file.toString())) || relative.toString().startsWith("_"))
-					return;
-
 				ResourceLocation key = new ResourceLocation(ctx.getModId(), fileName);
 
 				BufferedReader reader = null;

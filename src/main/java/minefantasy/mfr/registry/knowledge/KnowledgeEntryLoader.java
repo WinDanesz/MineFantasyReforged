@@ -38,7 +38,6 @@ public class KnowledgeEntryLoader {
 	private static final String CONFIG_KNOWLEDGE_DIRECTORY = "config/" + Constants.CONFIG_DIRECTORY + "/custom/knowledge_entries/";
 
 	private final KnowledgeEntryFactory factory;
-	private final java.util.Map<String, String> deferredParents = new java.util.HashMap<>();
 
 	public KnowledgeEntryLoader() {
 		this.factory = new KnowledgeEntryFactory();
@@ -47,6 +46,11 @@ public class KnowledgeEntryLoader {
 	/**
 	 * Load all knowledge entries from JSON files.
 	 * This should be called during post-initialization after items and blocks are registered.
+	 * 
+	 * Note: Parent entries should be loaded before their children. Since InformationBase.parent
+	 * is final and set in the constructor, parent references that don't exist at load time
+	 * will remain null. Files are loaded in alphabetical order, so naming conventions can help
+	 * ensure proper ordering (e.g., prefix with numbers: "01_parent.json", "02_child.json").
 	 */
 	public void loadKnowledgeEntries() {
 		ModContainer modContainer = Loader.instance().activeModContainer();
@@ -59,9 +63,6 @@ public class KnowledgeEntryLoader {
 		// Load from mod assets
 		Loader.instance().getActiveModList().forEach(m ->
 				loadKnowledgeEntriesFromDirectory(m, m.getSource(), String.format(KNOWLEDGE_FOLDER_PATH, m.getModId())));
-
-		// Resolve deferred parents after all entries are loaded
-		resolveDeferredParents();
 
 		Loader.instance().setActiveModContainer(modContainer);
 	}
@@ -86,9 +87,6 @@ public class KnowledgeEntryLoader {
 				}
 
 				Loader.instance().setActiveModContainer(mod);
-
-				if (!"json".equals(FilenameUtils.getExtension(file.toString())) || relative.toString().startsWith("_"))
-					return;
 
 				ResourceLocation key = new ResourceLocation(ctx.getModId(), fileName);
 
@@ -128,31 +126,6 @@ public class KnowledgeEntryLoader {
 		if (entry != null) {
 			entry.registerStat();
 			MineFantasyReforged.LOG.debug("Loaded knowledge entry: {}", key);
-		}
-	}
-
-	public void registerDeferredParent(String childName, String parentName) {
-		deferredParents.put(childName, parentName);
-	}
-
-	private void resolveDeferredParents() {
-		for (java.util.Map.Entry<String, String> entry : deferredParents.entrySet()) {
-			String childName = entry.getKey();
-			String parentName = entry.getValue();
-			
-			InformationBase child = InformationList.nameMap.get(childName);
-			InformationBase parent = InformationList.nameMap.get(parentName);
-			
-			if (child != null && parent != null) {
-				// Note: InformationBase doesn't have a setParent method, 
-				// parent is set in constructor and is final
-				// This limitation means entries must be loaded in dependency order
-				MineFantasyReforged.LOG.debug("Resolved parent {} for {}", parentName, childName);
-			} else if (child == null) {
-				MineFantasyReforged.LOG.warn("Could not resolve child knowledge entry: {}", childName);
-			} else {
-				MineFantasyReforged.LOG.warn("Could not resolve parent {} for {}", parentName, childName);
-			}
 		}
 	}
 

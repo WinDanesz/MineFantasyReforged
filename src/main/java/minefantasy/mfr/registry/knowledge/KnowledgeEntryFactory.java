@@ -38,8 +38,12 @@ public class KnowledgeEntryFactory {
 			String parentName = JsonUtils.getString(json, "parent");
 			parent = InformationList.nameMap.get(parentName);
 			if (parent == null) {
-				// Parent might not be loaded yet - will be null
-				// Could add delayed resolution here if needed
+				// Parent might not be loaded yet - log warning
+				// Note: Parent is final in InformationBase, so it cannot be set later
+				// Files should be named to ensure parents load before children (alphabetically)
+				minefantasy.mfr.MineFantasyReforged.LOG.warn(
+					"Parent '{}' not found for entry '{}'. Ensure parent is defined in a file that loads before this one (alphabetically earlier filename).",
+					parentName, name);
 			}
 		}
 		
@@ -75,11 +79,15 @@ public class KnowledgeEntryFactory {
 			JsonArray skills = JsonUtils.getJsonArray(json, "skills");
 			for (JsonElement skillElement : skills) {
 				JsonObject skillObj = skillElement.getAsJsonObject();
-				String skillName = JsonUtils.getString(skillObj, "skill");
+				String skillName = JsonUtils.getString(skillObj, "skill").toUpperCase();
 				int level = JsonUtils.getInt(skillObj, "level");
 				
-				Skill skill = Skill.valueOf(skillName.toUpperCase());
-				entry.addSkill(skill, level);
+				try {
+					Skill skill = Skill.valueOf(skillName);
+					entry.addSkill(skill, level);
+				} catch (IllegalArgumentException e) {
+					throw new JsonParseException("Invalid skill name: " + skillName + ". Valid values are: ARTISANRY, CONSTRUCTION, ENGINEERING, PROVISIONING, COMBAT, NONE", e);
+				}
 			}
 		}
 		

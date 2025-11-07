@@ -226,7 +226,10 @@ These were used to migrate the original 148 knowledge entries and 74 artefact ma
 
 ## Important Notes
 
-1. **Parent Dependencies**: Entries with parents should be defined after their parent entries are loaded, or the parent reference may fail.
+1. **Parent Dependencies**: Entries with parents must be loaded AFTER their parent entries. Since files are loaded in alphabetical order, you can ensure proper ordering by:
+   - Naming parent files alphabetically before child files (e.g., `a_parent.json`, `b_child.json`)
+   - Using numeric prefixes (e.g., `01_parent.json`, `02_child.json`)
+   - If a parent is not found, the entry will have null parent and a warning will be logged
 
 2. **Item/Block References**: Ensure all referenced items and blocks are registered before knowledge entries are loaded (during postInit phase).
 
@@ -241,5 +244,13 @@ If a knowledge entry doesn't load:
 1. Check the logs for parsing errors
 2. Verify JSON syntax is valid
 3. Ensure item/block IDs are correct and registered
-4. Verify parent entry exists if specified
+4. Verify parent entry exists and loads before the child (alphabetically earlier filename)
 5. Check skill names are valid (artisanry, construction, engineering, provisioning, combat)
+
+### Parent Not Found Warning
+
+If you see warnings like "Parent 'xyz' not found for entry 'abc'":
+- The parent entry hasn't been loaded yet
+- Rename the child file to load alphabetically after the parent
+- Example: If parent is `bloomery.json` and child is `advanced_bloomery.json`, this will work (advanced < bloomery alphabetically is wrong!)
+- Better: Rename to `bloomery.json` and `bloomery_advanced.json` or use prefixes like `01_bloomery.json` and `02_bloomery_advanced.json`
