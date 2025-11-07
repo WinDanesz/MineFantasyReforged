@@ -1,0 +1,11 @@
+{
+  "name": "carpenter",
+  "x": 0,
+  "y": -3,
+  "artefacts": 0,
+  "icon": {
+    "type": "block",
+    "id": "minefantasyreforged:carpenter"
+  },
+  "unlocked": true
+}

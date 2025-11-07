@@ -1,0 +1,13 @@
+{
+  "name": "crucible",
+  "x": 4,
+  "y": 0,
+  "artefacts": 0,
+  "icon": {
+    "type": "block",
+    "id": "minefantasyreforged:crucible_stone"
+  },
+  "page": "artisanry",
+  "unlocked": true,
+  "special": true
+}

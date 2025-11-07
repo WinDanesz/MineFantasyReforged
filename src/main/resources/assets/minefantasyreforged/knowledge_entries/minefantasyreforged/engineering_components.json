@@ -1,0 +1,13 @@
+{
+  "name": "engineering_components",
+  "x": 5,
+  "y": 0,
+  "artefacts": 0,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:bolt"
+  },
+  "parent": "engineering_tools",
+  "page": "engineering",
+  "unlocked": true
+}

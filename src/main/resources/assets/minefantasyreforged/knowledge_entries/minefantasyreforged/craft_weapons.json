@@ -1,0 +1,13 @@
+{
+  "name": "craft_weapons",
+  "x": -3,
+  "y": 1,
+  "artefacts": 5,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:standard_sword"
+  },
+  "parent": "bar",
+  "page": "artisanry",
+  "unlocked": true
+}

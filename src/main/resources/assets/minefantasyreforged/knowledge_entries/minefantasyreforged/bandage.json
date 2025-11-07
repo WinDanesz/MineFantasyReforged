@@ -1,0 +1,12 @@
+{
+  "name": "bandage",
+  "x": -3,
+  "y": 0,
+  "artefacts": 0,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:bandage_wool"
+  },
+  "page": "provisioning",
+  "unlocked": true
+}

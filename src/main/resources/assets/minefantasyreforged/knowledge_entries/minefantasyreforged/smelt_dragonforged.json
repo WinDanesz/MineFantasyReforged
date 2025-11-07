@@ -1,0 +1,17 @@
+{
+  "name": "smelt_dragonforged",
+  "x": -4,
+  "y": -1,
+  "artefacts": 1,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:dragon_heart"
+  },
+  "page": "artisanry",
+  "skills": [
+    {
+      "skill": "artisanry",
+      "level": 50
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "smelt_bronze",
+  "x": 1,
+  "y": 2,
+  "artefacts": 2,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:bronze_ingot"
+  },
+  "parent": "crucible",
+  "page": "artisanry",
+  "skills": [
+    {
+      "skill": "artisanry",
+      "level": 5
+    }
+  ]
+}

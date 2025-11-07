@@ -1,0 +1,14 @@
+{
+  "name": "bloomery",
+  "x": 4,
+  "y": -2,
+  "artefacts": 0,
+  "icon": {
+    "type": "block",
+    "id": "minefantasyreforged:bloomery"
+  },
+  "parent": "crucible",
+  "page": "artisanry",
+  "unlocked": true,
+  "special": true
+}

@@ -1,0 +1,14 @@
+{
+  "name": "anvil",
+  "x": -1,
+  "y": 0,
+  "artefacts": 0,
+  "icon": {
+    "type": "block",
+    "id": "minefantasyreforged:anvil_iron"
+  },
+  "parent": "forge",
+  "page": "artisanry",
+  "unlocked": true,
+  "special": true
+}

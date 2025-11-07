@@ -1,0 +1,13 @@
+{
+  "name": "food_box",
+  "x": 2,
+  "y": 4,
+  "artefacts": 1,
+  "icon": {
+    "type": "item",
+    "id": "minecraft:book"
+  },
+  "parent": "tool_rack",
+  "page": "construction",
+  "unlocked": true
+}

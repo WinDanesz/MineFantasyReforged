@@ -29,6 +29,8 @@ import minefantasy.mfr.init.MineFantasyMaterials;
 import minefantasy.mfr.init.MineFantasyOreDict;
 import minefantasy.mfr.network.NetworkHandler;
 import minefantasy.mfr.proxy.CommonProxy;
+import minefantasy.mfr.registry.knowledge.ArtefactLoader;
+import minefantasy.mfr.registry.knowledge.KnowledgeEntryLoader;
 import minefantasy.mfr.registry.material.CustomMaterialRegistry;
 import minefantasy.mfr.registry.material.MetalMaterial;
 import minefantasy.mfr.registry.recipe.BlockedRecipeManager;
@@ -226,8 +228,19 @@ public class MineFantasyReforged {
 			registerBiomeStuff(biome);
 		}
 
-		MineFantasyKnowledgeList.init();
-		MineFantasyKnowledgeList.ArtefactListMFR.init();
+		// Load knowledge entries from JSON files (data-driven approach)
+		KnowledgeEntryLoader knowledgeLoader = new KnowledgeEntryLoader();
+		knowledgeLoader.loadKnowledgeEntries();
+		
+		// Load artefact mappings from JSON files
+		ArtefactLoader artefactLoader = new ArtefactLoader();
+		artefactLoader.loadArtefacts();
+		
+		// Keep the old init for backward compatibility during transition
+		// TODO: Remove this once all entries are migrated to JSON
+		//MineFantasyKnowledgeList.init();
+		//MineFantasyKnowledgeList.ArtefactListMFR.init();
+		
 		//Exporters go here
 		RecipeRemover.removeSmeltingRecipes();
 

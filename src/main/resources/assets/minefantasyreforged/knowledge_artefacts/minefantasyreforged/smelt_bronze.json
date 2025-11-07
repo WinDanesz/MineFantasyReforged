@@ -1,0 +1,13 @@
+{
+  "knowledge_entry": "smelt_bronze",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minefantasyreforged:copper_ingot"
+    },
+    {
+      "type": "item",
+      "id": "minefantasyreforged:tin_ingot"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "sticky_bomb",
+  "x": -2,
+  "y": 2,
+  "artefacts": 1,
+  "icon": {
+    "type": "item",
+    "id": "minecraft:slime_ball"
+  },
+  "parent": "bombs",
+  "page": "engineering",
+  "skills": [
+    {
+      "skill": "engineering",
+      "level": 50
+    }
+  ]
+}

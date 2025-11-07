@@ -1,0 +1,18 @@
+{
+  "name": "crossbow_bayonet",
+  "x": -1,
+  "y": -3,
+  "artefacts": 1,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:crossbow_bayonet"
+  },
+  "parent": "crossbow_heads",
+  "page": "engineering",
+  "skills": [
+    {
+      "skill": "engineering",
+      "level": 10
+    }
+  ]
+}

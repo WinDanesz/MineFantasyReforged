@@ -1,0 +1,12 @@
+{
+  "name": "bellows",
+  "x": 0,
+  "y": -1,
+  "artefacts": 0,
+  "icon": {
+    "type": "block",
+    "id": "minefantasyreforged:bellows"
+  },
+  "page": "artisanry",
+  "unlocked": true
+}

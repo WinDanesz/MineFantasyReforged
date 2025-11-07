@@ -1,0 +1,18 @@
+{
+  "name": "mine_iron",
+  "x": -4,
+  "y": 5,
+  "artefacts": 1,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:mine_casing_iron"
+  },
+  "parent": "mine_ceramic",
+  "page": "engineering",
+  "skills": [
+    {
+      "skill": "engineering",
+      "level": 20
+    }
+  ]
+}

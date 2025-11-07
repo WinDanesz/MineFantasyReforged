@@ -1,0 +1,12 @@
+{
+  "name": "plants",
+  "x": 1,
+  "y": -3,
+  "artefacts": 0,
+  "icon": {
+    "type": "block",
+    "id": "minefantasyreforged:log_ironbark"
+  },
+  "parent": "ores",
+  "unlocked": true
+}

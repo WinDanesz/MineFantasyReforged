@@ -1,0 +1,19 @@
+{
+  "name": "smelt_pig_iron",
+  "x": 3,
+  "y": 3,
+  "artefacts": 0,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:pig_iron_ingot"
+  },
+  "parent": "blast_furnace",
+  "page": "artisanry",
+  "unlocked": true,
+  "skills": [
+    {
+      "skill": "artisanry",
+      "level": 25
+    }
+  ]
+}

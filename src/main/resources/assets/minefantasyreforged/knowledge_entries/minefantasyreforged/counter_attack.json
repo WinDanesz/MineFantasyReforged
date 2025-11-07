@@ -1,0 +1,19 @@
+{
+  "name": "counter_attack",
+  "x": -1,
+  "y": -2,
+  "artefacts": 0,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:standard_waraxe"
+  },
+  "parent": "parry_pro",
+  "page": "mastery",
+  "perk": true,
+  "skills": [
+    {
+      "skill": "combat",
+      "level": 25
+    }
+  ]
+}

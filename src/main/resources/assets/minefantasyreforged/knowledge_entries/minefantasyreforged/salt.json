@@ -1,0 +1,12 @@
+{
+  "name": "salt",
+  "x": -2,
+  "y": -3,
+  "artefacts": 0,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:salt"
+  },
+  "page": "provisioning",
+  "unlocked": true
+}

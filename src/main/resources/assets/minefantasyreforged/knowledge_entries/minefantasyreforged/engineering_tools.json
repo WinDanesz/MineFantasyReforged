@@ -1,0 +1,12 @@
+{
+  "name": "engineering_tools",
+  "x": 3,
+  "y": 0,
+  "artefacts": 0,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:standard_spanner"
+  },
+  "page": "engineering",
+  "unlocked": true
+}

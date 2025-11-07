@@ -1,0 +1,19 @@
+{
+  "name": "doctor",
+  "x": 0,
+  "y": 3,
+  "artefacts": 0,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:syringe"
+  },
+  "parent": "first_aid",
+  "page": "mastery",
+  "perk": true,
+  "skills": [
+    {
+      "skill": "provisioning",
+      "level": 50
+    }
+  ]
+}

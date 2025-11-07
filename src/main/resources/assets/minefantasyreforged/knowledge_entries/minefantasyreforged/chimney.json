@@ -1,0 +1,11 @@
+{
+  "name": "chimney",
+  "x": 0,
+  "y": 2,
+  "artefacts": 0,
+  "icon": {
+    "type": "block",
+    "id": "minefantasyreforged:chimney_stone"
+  },
+  "unlocked": true
+}

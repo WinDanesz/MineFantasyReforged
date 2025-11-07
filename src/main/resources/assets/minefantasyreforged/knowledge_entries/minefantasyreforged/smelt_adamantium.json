@@ -1,0 +1,17 @@
+{
+  "name": "smelt_adamantium",
+  "x": 3,
+  "y": 12,
+  "artefacts": 3,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:adamantium_ingot"
+  },
+  "page": "artisanry",
+  "skills": [
+    {
+      "skill": "artisanry",
+      "level": 75
+    }
+  ]
+}

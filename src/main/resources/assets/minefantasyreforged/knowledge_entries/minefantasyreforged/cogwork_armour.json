@@ -1,0 +1,18 @@
+{
+  "name": "cogwork_armour",
+  "x": 8,
+  "y": -3,
+  "artefacts": 2,
+  "icon": {
+    "type": "block",
+    "id": "minefantasyreforged:block_cogwork_helm"
+  },
+  "parent": "tungsten",
+  "page": "engineering",
+  "skills": [
+    {
+      "skill": "engineering",
+      "level": 60
+    }
+  ]
+}

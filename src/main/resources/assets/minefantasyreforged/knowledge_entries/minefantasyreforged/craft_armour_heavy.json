@@ -1,0 +1,18 @@
+{
+  "name": "craft_armour_heavy",
+  "x": -5,
+  "y": 3,
+  "artefacts": 3,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:standard_plate_chestplate"
+  },
+  "parent": "craft_armour_medium",
+  "page": "artisanry",
+  "skills": [
+    {
+      "skill": "artisanry",
+      "level": 10
+    }
+  ]
+}

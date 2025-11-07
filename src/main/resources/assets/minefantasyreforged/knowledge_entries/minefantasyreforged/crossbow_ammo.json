@@ -1,0 +1,18 @@
+{
+  "name": "crossbow_ammo",
+  "x": -5,
+  "y": 3,
+  "artefacts": 1,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:crossbow_ammo"
+  },
+  "parent": "crossbow_shafts",
+  "page": "engineering",
+  "skills": [
+    {
+      "skill": "engineering",
+      "level": 30
+    }
+  ]
+}

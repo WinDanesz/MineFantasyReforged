@@ -1,0 +1,12 @@
+{
+  "name": "cheese",
+  "x": 1,
+  "y": -2,
+  "artefacts": 0,
+  "icon": {
+    "type": "block",
+    "id": "minefantasyreforged:cheese_wheel"
+  },
+  "page": "provisioning",
+  "unlocked": true
+}

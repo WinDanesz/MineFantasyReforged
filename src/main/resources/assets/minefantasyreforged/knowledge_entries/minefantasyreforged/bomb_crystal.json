@@ -1,0 +1,18 @@
+{
+  "name": "bomb_crystal",
+  "x": 2,
+  "y": 9,
+  "artefacts": 1,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:bomb_casing_crystal"
+  },
+  "parent": "bomb_obsidian",
+  "page": "engineering",
+  "skills": [
+    {
+      "skill": "engineering",
+      "level": 40
+    }
+  ]
+}

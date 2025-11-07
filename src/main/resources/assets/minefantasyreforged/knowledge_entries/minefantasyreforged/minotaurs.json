@@ -1,0 +1,11 @@
+{
+  "name": "minotaurs",
+  "x": 1,
+  "y": 3,
+  "artefacts": 0,
+  "icon": {
+    "type": "item",
+    "id": "minecraft:beef"
+  },
+  "unlocked": true
+}

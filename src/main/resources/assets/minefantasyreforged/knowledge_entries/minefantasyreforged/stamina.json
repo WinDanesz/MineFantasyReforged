@@ -1,0 +1,12 @@
+{
+  "name": "stamina",
+  "x": -3,
+  "y": 1,
+  "artefacts": 0,
+  "icon": {
+    "type": "item",
+    "id": "minecraft:feather"
+  },
+  "parent": "craft_crafters",
+  "unlocked": true
+}

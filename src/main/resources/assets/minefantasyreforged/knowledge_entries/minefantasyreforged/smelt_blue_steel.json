@@ -1,0 +1,18 @@
+{
+  "name": "smelt_blue_steel",
+  "x": 5,
+  "y": 9,
+  "artefacts": 5,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:blue_steel_ingot"
+  },
+  "parent": "smelt_black_steel",
+  "page": "artisanry",
+  "skills": [
+    {
+      "skill": "artisanry",
+      "level": 65
+    }
+  ]
+}

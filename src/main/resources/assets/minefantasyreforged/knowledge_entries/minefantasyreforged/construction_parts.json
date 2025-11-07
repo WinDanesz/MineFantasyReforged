@@ -1,0 +1,12 @@
+{
+  "name": "construction_parts",
+  "x": 0,
+  "y": 0,
+  "artefacts": 0,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:timber_cut"
+  },
+  "page": "construction",
+  "unlocked": true
+}

@@ -1,0 +1,18 @@
+{
+  "name": "big_box",
+  "x": 6,
+  "y": 4,
+  "artefacts": 1,
+  "icon": {
+    "type": "item",
+    "id": "minecraft:book"
+  },
+  "parent": "ammo_box",
+  "page": "construction",
+  "skills": [
+    {
+      "skill": "construction",
+      "level": 25
+    }
+  ]
+}
