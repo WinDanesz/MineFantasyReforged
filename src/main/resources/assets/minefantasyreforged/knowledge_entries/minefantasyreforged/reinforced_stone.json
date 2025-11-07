@@ -1,0 +1,12 @@
+{
+  "name": "reinforced_stone",
+  "x": 1,
+  "y": 0,
+  "artefacts": 0,
+  "icon": {
+    "type": "block",
+    "id": "minefantasyreforged:reinforced_stone"
+  },
+  "page": "construction",
+  "unlocked": true
+}

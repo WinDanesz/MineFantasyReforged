@@ -1,0 +1,17 @@
+{
+  "knowledge_entry": "sweetroll",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minecraft:sugar"
+    },
+    {
+      "type": "item",
+      "id": "minefantasyreforged:berries"
+    },
+    {
+      "type": "item",
+      "id": "minefantasyreforged:sugar_pot"
+    }
+  ]
+}

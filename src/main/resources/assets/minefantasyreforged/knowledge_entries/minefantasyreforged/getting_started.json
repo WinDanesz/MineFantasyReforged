@@ -1,0 +1,11 @@
+{
+  "name": "getting_started",
+  "x": 0,
+  "y": 0,
+  "artefacts": 0,
+  "icon": {
+    "type": "item",
+    "id": "minecraft:book"
+  },
+  "unlocked": true
+}

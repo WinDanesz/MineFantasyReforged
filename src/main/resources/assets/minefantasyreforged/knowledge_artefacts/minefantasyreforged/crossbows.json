@@ -1,0 +1,17 @@
+{
+  "knowledge_entry": "crossbows",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minecraft:string"
+    },
+    {
+      "type": "item",
+      "id": "minefantasyreforged:timber"
+    },
+    {
+      "type": "block",
+      "id": "minecraft:lever"
+    }
+  ]
+}

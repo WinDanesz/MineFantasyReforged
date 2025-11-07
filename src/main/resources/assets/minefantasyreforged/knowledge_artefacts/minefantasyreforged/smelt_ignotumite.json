@@ -1,0 +1,13 @@
+{
+  "knowledge_entry": "smelt_ignotumite",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minecraft:emerald"
+    },
+    {
+      "type": "item",
+      "id": "minecraft:blaze_powder"
+    }
+  ]
+}

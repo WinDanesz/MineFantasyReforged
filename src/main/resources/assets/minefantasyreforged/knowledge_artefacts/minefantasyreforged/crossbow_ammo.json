@@ -1,0 +1,9 @@
+{
+  "knowledge_entry": "crossbow_ammo",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minefantasyreforged:tungsten_gears"
+    }
+  ]
+}

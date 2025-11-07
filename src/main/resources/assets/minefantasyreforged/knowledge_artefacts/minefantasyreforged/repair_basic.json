@@ -1,0 +1,17 @@
+{
+  "knowledge_entry": "repair_basic",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minecraft:leather"
+    },
+    {
+      "type": "item",
+      "id": "minecraft:flint"
+    },
+    {
+      "type": "item",
+      "id": "minefantasyreforged:nail"
+    }
+  ]
+}

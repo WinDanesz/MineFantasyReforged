@@ -1,0 +1,9 @@
+{
+  "knowledge_entry": "arrows_bodkin",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minecraft:feather"
+    }
+  ]
+}

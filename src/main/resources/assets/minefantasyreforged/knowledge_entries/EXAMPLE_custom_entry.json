@@ -1,0 +1,23 @@
+{
+  "_comment": "This is an example of how to create a custom knowledge entry",
+  "_description": "This entry requires finding copper ore and tin ingots as artefacts",
+  
+  "name": "example_custom_entry",
+  "x": 2,
+  "y": 3,
+  "artefacts": 2,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:bronze_ingot"
+  },
+  "parent": "smelt_copper",
+  "page": "artisanry",
+  "skills": [
+    {
+      "skill": "artisanry",
+      "level": 15
+    }
+  ],
+  "unlocked": false,
+  "special": false
+}

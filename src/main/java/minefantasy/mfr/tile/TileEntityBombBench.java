@@ -7,12 +7,12 @@ import minefantasy.mfr.constants.Tool;
 import minefantasy.mfr.container.ContainerBase;
 import minefantasy.mfr.container.ContainerBombBench;
 import minefantasy.mfr.init.MineFantasyItems;
-import minefantasy.mfr.init.MineFantasyKnowledgeList;
 import minefantasy.mfr.init.MineFantasySounds;
 import minefantasy.mfr.item.ItemBomb;
 import minefantasy.mfr.item.ItemBombComponent;
 import minefantasy.mfr.item.ItemExplodingArrow;
 import minefantasy.mfr.mechanics.knowledge.ResearchLogic;
+import minefantasy.mfr.mechanics.knowledge.InformationList;
 import minefantasy.mfr.network.NetworkHandler;
 import minefantasy.mfr.util.ToolHelper;
 import net.minecraft.client.resources.I18n;
@@ -93,7 +93,7 @@ public class TileEntityBombBench extends TileEntityBase implements IBasicMetre {
 
 	public boolean tryCraft(EntityPlayer player, boolean pressUsed) {
 		boolean sticky = !pressUsed
-				&& ResearchLogic.getResearchCheck(player, MineFantasyKnowledgeList.sticky_bomb)
+				&& ResearchLogic.getResearchCheck(player, InformationList.getEntry("sticky_bomb"))
 				&& !player.getHeldItemMainhand().isEmpty()
 				&& player.getHeldItemMainhand().getItem() == Items.SLIME_BALL;
 		if (!world.isRemote && sticky && applySlime()) {

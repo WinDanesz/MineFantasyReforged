@@ -1,0 +1,12 @@
+{
+  "name": "glass",
+  "x": 0,
+  "y": 1,
+  "artefacts": 0,
+  "icon": {
+    "type": "block",
+    "id": "minefantasyreforged:framed_glass"
+  },
+  "page": "construction",
+  "unlocked": true
+}

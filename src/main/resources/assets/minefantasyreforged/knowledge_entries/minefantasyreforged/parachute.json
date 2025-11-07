@@ -1,0 +1,18 @@
+{
+  "name": "parachute",
+  "x": 9,
+  "y": 2,
+  "artefacts": 2,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:parachute"
+  },
+  "parent": "climber",
+  "page": "engineering",
+  "skills": [
+    {
+      "skill": "engineering",
+      "level": 10
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "blackpowder",
+  "x": 0,
+  "y": 0,
+  "artefacts": 4,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:blackpowder"
+  },
+  "page": "engineering",
+  "skills": [
+    {
+      "skill": "engineering",
+      "level": 0
+    }
+  ]
+}

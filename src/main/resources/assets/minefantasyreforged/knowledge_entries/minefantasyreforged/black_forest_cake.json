@@ -1,0 +1,18 @@
+{
+  "name": "black_forest_cake",
+  "x": 1,
+  "y": 9,
+  "artefacts": 4,
+  "icon": {
+    "type": "block",
+    "id": "minefantasyreforged:cake_bf"
+  },
+  "parent": "chocolate_cake",
+  "page": "provisioning",
+  "skills": [
+    {
+      "skill": "provisioning",
+      "level": 90
+    }
+  ]
+}

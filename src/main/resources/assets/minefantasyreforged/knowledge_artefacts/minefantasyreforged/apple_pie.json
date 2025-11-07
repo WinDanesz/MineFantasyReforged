@@ -1,0 +1,13 @@
+{
+  "knowledge_entry": "apple_pie",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minecraft:apple"
+    },
+    {
+      "type": "item",
+      "id": "minefantasyreforged:pastry"
+    }
+  ]
+}

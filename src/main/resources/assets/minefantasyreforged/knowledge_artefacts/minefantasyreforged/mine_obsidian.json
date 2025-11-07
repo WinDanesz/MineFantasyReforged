@@ -1,0 +1,9 @@
+{
+  "knowledge_entry": "mine_obsidian",
+  "artefacts": [
+    {
+      "type": "block",
+      "id": "minecraft:obsidian"
+    }
+  ]
+}

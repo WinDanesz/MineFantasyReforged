@@ -1,0 +1,18 @@
+{
+  "name": "crossbow_head_advanced",
+  "x": -3,
+  "y": -3,
+  "artefacts": 2,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:crossbow_arms_advanced"
+  },
+  "parent": "crossbow_heads",
+  "page": "engineering",
+  "skills": [
+    {
+      "skill": "engineering",
+      "level": 30
+    }
+  ]
+}

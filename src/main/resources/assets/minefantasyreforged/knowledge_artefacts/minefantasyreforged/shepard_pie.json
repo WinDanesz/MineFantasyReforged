@@ -1,0 +1,17 @@
+{
+  "knowledge_entry": "shepard_pie",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minefantasyreforged:generic_meat_uncooked"
+    },
+    {
+      "type": "item",
+      "id": "minecraft:potato"
+    },
+    {
+      "type": "item",
+      "id": "minefantasyreforged:pastry"
+    }
+  ]
+}

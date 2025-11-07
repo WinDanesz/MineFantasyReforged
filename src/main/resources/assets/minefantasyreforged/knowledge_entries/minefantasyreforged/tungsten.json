@@ -1,0 +1,22 @@
+{
+  "name": "tungsten",
+  "x": 8,
+  "y": -1,
+  "artefacts": 1,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:tungsten_ingot"
+  },
+  "parent": "engineering_components",
+  "page": "engineering",
+  "skills": [
+    {
+      "skill": "engineering",
+      "level": 20
+    },
+    {
+      "skill": "artisanry",
+      "level": 20
+    }
+  ]
+}

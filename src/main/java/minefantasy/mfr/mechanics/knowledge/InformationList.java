@@ -40,4 +40,13 @@ public class InformationList {
 	 */
 	public static void init() {
 	}
+	
+	/**
+	 * Get a knowledge entry by name.
+	 * @param name The name/id of the knowledge entry
+	 * @return The InformationBase object, or null if not found
+	 */
+	public static InformationBase getEntry(String name) {
+		return nameMap.get(name);
+	}
 }

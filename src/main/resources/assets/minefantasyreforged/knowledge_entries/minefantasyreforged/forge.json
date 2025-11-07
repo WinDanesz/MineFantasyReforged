@@ -1,0 +1,12 @@
+{
+  "name": "forge",
+  "x": 0,
+  "y": 0,
+  "artefacts": 0,
+  "icon": {
+    "type": "block",
+    "id": "minefantasyreforged:forge"
+  },
+  "page": "artisanry",
+  "unlocked": true
+}

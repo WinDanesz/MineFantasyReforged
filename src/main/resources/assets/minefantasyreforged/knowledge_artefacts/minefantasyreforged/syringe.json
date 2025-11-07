@@ -1,0 +1,9 @@
+{
+  "knowledge_entry": "syringe",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minecraft:potionitem"
+    }
+  ]
+}

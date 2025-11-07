@@ -1,0 +1,13 @@
+{
+  "knowledge_entry": "bomb_press",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minefantasyreforged:bronze_gears"
+    },
+    {
+      "type": "block",
+      "id": "minecraft:lever"
+    }
+  ]
+}

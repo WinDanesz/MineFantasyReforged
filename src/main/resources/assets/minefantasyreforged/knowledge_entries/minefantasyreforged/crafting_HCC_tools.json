@@ -1,0 +1,12 @@
+{
+  "name": "crafting_HCC_tools",
+  "x": -1,
+  "y": -2,
+  "artefacts": 0,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:stone_pick"
+  },
+  "page": "artisanry",
+  "unlocked": true
+}

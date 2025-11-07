@@ -1,0 +1,12 @@
+{
+  "name": "coke",
+  "x": 4,
+  "y": -1,
+  "artefacts": 2,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:coke"
+  },
+  "parent": "engineering_components",
+  "page": "engineering"
+}

@@ -1,0 +1,9 @@
+{
+  "knowledge_entry": "smelt_dragonforged",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minefantasyreforged:dragon_heart"
+    }
+  ]
+}

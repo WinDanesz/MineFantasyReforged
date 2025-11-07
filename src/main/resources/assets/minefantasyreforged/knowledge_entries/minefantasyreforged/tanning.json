@@ -1,0 +1,12 @@
+{
+  "name": "tanning",
+  "x": 0,
+  "y": -2,
+  "artefacts": 0,
+  "icon": {
+    "type": "item",
+    "id": "minecraft:leather"
+  },
+  "unlocked": true,
+  "special": true
+}

@@ -1,0 +1,18 @@
+{
+  "name": "smelt_obsidian",
+  "x": 6,
+  "y": 3,
+  "artefacts": 2,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:obsidian_ingot"
+  },
+  "parent": "smelt_steel",
+  "page": "artisanry",
+  "skills": [
+    {
+      "skill": "artisanry",
+      "level": 40
+    }
+  ]
+}

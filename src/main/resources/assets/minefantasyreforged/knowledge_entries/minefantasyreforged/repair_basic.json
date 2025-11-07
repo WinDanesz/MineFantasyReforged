@@ -1,0 +1,17 @@
+{
+  "name": "repair_basic",
+  "x": 8,
+  "y": 0,
+  "artefacts": 2,
+  "icon": {
+    "type": "block",
+    "id": "minefantasyreforged:repair_basic"
+  },
+  "page": "artisanry",
+  "skills": [
+    {
+      "skill": "artisanry",
+      "level": 10
+    }
+  ]
+}

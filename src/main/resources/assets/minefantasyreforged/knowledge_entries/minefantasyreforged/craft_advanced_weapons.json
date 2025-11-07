@@ -1,0 +1,13 @@
+{
+  "name": "craft_advanced_weapons",
+  "x": -5,
+  "y": 1,
+  "artefacts": 0,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:standard_battleaxe"
+  },
+  "parent": "craft_weapons",
+  "page": "artisanry",
+  "unlocked": true
+}

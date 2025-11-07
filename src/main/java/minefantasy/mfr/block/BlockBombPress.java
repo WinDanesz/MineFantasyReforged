@@ -4,9 +4,9 @@ import codechicken.lib.model.ModelRegistryHelper;
 import minefantasy.mfr.MineFantasyReforged;
 import minefantasy.mfr.client.model.block.ModelDummyParticle;
 import minefantasy.mfr.client.render.block.TileEntityBombPressRenderer;
-import minefantasy.mfr.init.MineFantasyKnowledgeList;
 import minefantasy.mfr.init.MineFantasyTabs;
 import minefantasy.mfr.mechanics.knowledge.ResearchLogic;
+import minefantasy.mfr.mechanics.knowledge.InformationList;
 import minefantasy.mfr.proxy.IClientRegister;
 import minefantasy.mfr.tile.TileEntityBombPress;
 import net.minecraft.block.BlockHorizontal;
@@ -85,7 +85,7 @@ public class BlockBombPress extends BlockTileEntity<TileEntityBombPress> impleme
 	 */
 	@Override
 	public boolean onBlockActivated(World world, BlockPos pos, IBlockState state, EntityPlayer player, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
-		if (!ResearchLogic.getResearchCheck(player, MineFantasyKnowledgeList.bombs)) {
+		if (!ResearchLogic.getResearchCheck(player, InformationList.getEntry("bombs"))) {
 			if (!world.isRemote && hand == player.getActiveHand()) {
 				player.sendMessage(new TextComponentTranslation("knowledge.unknownUse"));
 			}

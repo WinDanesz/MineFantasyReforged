@@ -1,0 +1,12 @@
+{
+  "name": "talisman",
+  "x": 4,
+  "y": 2,
+  "artefacts": 0,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:talisman_lesser"
+  },
+  "parent": "research",
+  "unlocked": true
+}

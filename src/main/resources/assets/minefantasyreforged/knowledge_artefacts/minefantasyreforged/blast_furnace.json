@@ -1,0 +1,29 @@
+{
+  "knowledge_entry": "blast_furnace",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minecraft:iron_ingot"
+    },
+    {
+      "type": "block",
+      "id": "minecraft:iron_ore"
+    },
+    {
+      "type": "block",
+      "id": "minecraft:furnace"
+    },
+    {
+      "type": "block",
+      "id": "minefantasyreforged:bloomery"
+    },
+    {
+      "type": "block",
+      "id": "minefantasyreforged:limestone"
+    },
+    {
+      "type": "item",
+      "id": "minefantasyreforged:kaolinite"
+    }
+  ]
+}

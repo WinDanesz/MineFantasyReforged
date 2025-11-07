@@ -1,0 +1,9 @@
+{
+  "knowledge_entry": "bomb_iron",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minecraft:iron_ingot"
+    }
+  ]
+}

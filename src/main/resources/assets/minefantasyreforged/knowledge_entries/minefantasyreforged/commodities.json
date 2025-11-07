@@ -1,0 +1,11 @@
+{
+  "name": "commodities",
+  "x": -1,
+  "y": -2,
+  "artefacts": 0,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:nail"
+  },
+  "unlocked": true
+}

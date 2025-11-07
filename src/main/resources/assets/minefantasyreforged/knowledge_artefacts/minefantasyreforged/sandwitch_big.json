@@ -1,0 +1,17 @@
+{
+  "knowledge_entry": "sandwitch_big",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minefantasyreforged:generic_meat_uncooked"
+    },
+    {
+      "type": "item",
+      "id": "minefantasyreforged:cheese_slice"
+    },
+    {
+      "type": "item",
+      "id": "minecraft:bread"
+    }
+  ]
+}

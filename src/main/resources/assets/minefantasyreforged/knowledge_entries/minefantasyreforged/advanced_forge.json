@@ -1,0 +1,22 @@
+{
+  "name": "advanced_forge",
+  "x": 9,
+  "y": 3,
+  "artefacts": 1,
+  "icon": {
+    "type": "block",
+    "id": "minefantasyreforged:forge_metal"
+  },
+  "parent": "advanced_crucible",
+  "page": "engineering",
+  "skills": [
+    {
+      "skill": "engineering",
+      "level": 75
+    },
+    {
+      "skill": "artisanry",
+      "level": 50
+    }
+  ]
+}

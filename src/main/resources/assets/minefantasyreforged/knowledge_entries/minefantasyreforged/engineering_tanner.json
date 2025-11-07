@@ -1,0 +1,22 @@
+{
+  "name": "engineering_tanner",
+  "x": 5,
+  "y": 2,
+  "artefacts": 1,
+  "icon": {
+    "type": "block",
+    "id": "minefantasyreforged:tanner_metal"
+  },
+  "parent": "engineering_components",
+  "page": "engineering",
+  "skills": [
+    {
+      "skill": "engineering",
+      "level": 40
+    },
+    {
+      "skill": "artisanry",
+      "level": 25
+    }
+  ]
+}

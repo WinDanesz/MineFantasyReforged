@@ -1,0 +1,13 @@
+{
+  "name": "brickworks",
+  "x": 3,
+  "y": 0,
+  "artefacts": 0,
+  "icon": {
+    "type": "block",
+    "id": "minefantasyreforged:cobble_brick"
+  },
+  "parent": "reinforced_stone",
+  "page": "construction",
+  "unlocked": true
+}

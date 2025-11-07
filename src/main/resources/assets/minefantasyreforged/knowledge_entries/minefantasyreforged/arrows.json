@@ -1,0 +1,13 @@
+{
+  "name": "arrows",
+  "x": -3,
+  "y": 4,
+  "artefacts": 0,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:standard_arrow"
+  },
+  "parent": "bar",
+  "page": "artisanry",
+  "unlocked": true
+}

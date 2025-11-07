@@ -1,0 +1,9 @@
+{
+  "knowledge_entry": "smelt_blue_steel",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minecraft:blaze_powder"
+    }
+  ]
+}

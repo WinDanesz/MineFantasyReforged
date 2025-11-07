@@ -1,0 +1,13 @@
+{
+  "name": "bars",
+  "x": 0,
+  "y": 3,
+  "artefacts": 0,
+  "icon": {
+    "type": "block",
+    "id": "minefantasyreforged:steel_bars"
+  },
+  "parent": "glass",
+  "page": "construction",
+  "unlocked": true
+}

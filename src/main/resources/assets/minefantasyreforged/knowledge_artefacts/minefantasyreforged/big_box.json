@@ -1,0 +1,9 @@
+{
+  "knowledge_entry": "big_box",
+  "artefacts": [
+    {
+      "type": "block",
+      "id": "minecraft:chest"
+    }
+  ]
+}

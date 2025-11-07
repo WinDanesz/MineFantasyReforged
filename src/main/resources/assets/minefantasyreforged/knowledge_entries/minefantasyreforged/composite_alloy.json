@@ -1,0 +1,22 @@
+{
+  "name": "composite_alloy",
+  "x": 10,
+  "y": -3,
+  "artefacts": 1,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:composite_alloy_ingot"
+  },
+  "parent": "tungsten",
+  "page": "engineering",
+  "skills": [
+    {
+      "skill": "engineering",
+      "level": 50
+    },
+    {
+      "skill": "artisanry",
+      "level": 40
+    }
+  ]
+}

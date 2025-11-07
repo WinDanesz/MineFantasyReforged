@@ -1,0 +1,13 @@
+{
+  "name": "thatch",
+  "x": 0,
+  "y": -3,
+  "artefacts": 0,
+  "icon": {
+    "type": "block",
+    "id": "minefantasyreforged:thatch"
+  },
+  "parent": "clay_wall",
+  "page": "construction",
+  "unlocked": true
+}

@@ -1,0 +1,9 @@
+{
+  "knowledge_entry": "mine_crystal",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minecraft:diamond"
+    }
+  ]
+}

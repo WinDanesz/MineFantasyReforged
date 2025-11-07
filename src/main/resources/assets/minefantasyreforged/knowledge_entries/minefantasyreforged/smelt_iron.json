@@ -1,0 +1,17 @@
+{
+  "name": "smelt_iron",
+  "x": 1,
+  "y": 4,
+  "artefacts": 1,
+  "icon": {
+    "type": "item",
+    "id": "minecraft:iron_ingot"
+  },
+  "page": "artisanry",
+  "skills": [
+    {
+      "skill": "artisanry",
+      "level": 10
+    }
+  ]
+}

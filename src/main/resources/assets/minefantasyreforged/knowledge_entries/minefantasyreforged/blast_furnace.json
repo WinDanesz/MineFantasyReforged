@@ -1,0 +1,19 @@
+{
+  "name": "blast_furnace",
+  "x": 2,
+  "y": 5,
+  "artefacts": 5,
+  "icon": {
+    "type": "block",
+    "id": "minefantasyreforged:blast_heater"
+  },
+  "parent": "smelt_iron",
+  "page": "artisanry",
+  "special": true,
+  "skills": [
+    {
+      "skill": "artisanry",
+      "level": 25
+    }
+  ]
+}

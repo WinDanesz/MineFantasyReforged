@@ -1,0 +1,22 @@
+{
+  "name": "advanced_crucible",
+  "x": 7,
+  "y": 3,
+  "artefacts": 1,
+  "icon": {
+    "type": "block",
+    "id": "minefantasyreforged:crucible_auto"
+  },
+  "parent": "engineering_tanner",
+  "page": "engineering",
+  "skills": [
+    {
+      "skill": "engineering",
+      "level": 50
+    },
+    {
+      "skill": "artisanry",
+      "level": 35
+    }
+  ]
+}

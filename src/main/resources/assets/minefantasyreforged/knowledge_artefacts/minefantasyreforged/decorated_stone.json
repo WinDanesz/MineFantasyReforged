@@ -1,0 +1,13 @@
+{
+  "knowledge_entry": "decorated_stone",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minecraft:iron_ingot"
+    },
+    {
+      "type": "block",
+      "id": "minefantasyreforged:reinforced_stone"
+    }
+  ]
+}

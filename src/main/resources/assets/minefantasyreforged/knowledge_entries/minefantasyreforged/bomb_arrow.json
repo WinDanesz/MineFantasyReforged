@@ -1,0 +1,18 @@
+{
+  "name": "bomb_arrow",
+  "x": 1,
+  "y": 1,
+  "artefacts": 2,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:exploding_arrow"
+  },
+  "parent": "bombs",
+  "page": "engineering",
+  "skills": [
+    {
+      "skill": "engineering",
+      "level": 40
+    }
+  ]
+}

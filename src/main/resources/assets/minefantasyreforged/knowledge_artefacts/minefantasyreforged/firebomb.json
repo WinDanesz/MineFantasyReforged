@@ -1,0 +1,13 @@
+{
+  "knowledge_entry": "firebomb",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minefantasyreforged:dragon_heart"
+    },
+    {
+      "type": "item",
+      "id": "minecraft:magma_cream"
+    }
+  ]
+}

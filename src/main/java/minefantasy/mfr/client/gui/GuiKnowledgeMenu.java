@@ -3,7 +3,6 @@ package minefantasy.mfr.client.gui;
 import codechicken.lib.texture.TextureUtils;
 import minefantasy.mfr.MineFantasyReforged;
 import minefantasy.mfr.constants.Skill;
-import minefantasy.mfr.init.MineFantasyKnowledgeList;
 import minefantasy.mfr.mechanics.RPGElements;
 import minefantasy.mfr.mechanics.knowledge.InformationBase;
 import minefantasy.mfr.mechanics.knowledge.InformationList;
@@ -73,8 +72,8 @@ public class GuiKnowledgeMenu extends GuiScreen {
 		this.player = user;
 		short short1 = 141;
 		short short2 = 141;
-		GuiKnowledgeMenu.displayColumnModified1 = GuiKnowledgeMenu.displayColumnModified2 = GuiKnowledgeMenu.displayColumnModified3 = MineFantasyKnowledgeList.getting_started.displayColumn * 24 - short1 / 2 - 12;
-		GuiKnowledgeMenu.displayRowModified1 = GuiKnowledgeMenu.displayRowModified2 = GuiKnowledgeMenu.displayRowModified3 = MineFantasyKnowledgeList.getting_started.displayRow * 24 - short2 / 2;
+		GuiKnowledgeMenu.displayColumnModified1 = GuiKnowledgeMenu.displayColumnModified2 = GuiKnowledgeMenu.displayColumnModified3 = InformationList.getEntry("getting_started").displayColumn * 24 - short1 / 2 - 12;
+		GuiKnowledgeMenu.displayRowModified1 = GuiKnowledgeMenu.displayRowModified2 = GuiKnowledgeMenu.displayRowModified3 = InformationList.getEntry("getting_started").displayRow * 24 - short2 / 2;
 		informationList.clear();
 		for (Object achievement : InformationList.knowledgeList) {
 			if (!InformationPage.isInfoInPages((InformationBase) achievement)) {

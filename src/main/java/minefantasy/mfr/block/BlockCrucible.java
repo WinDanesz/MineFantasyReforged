@@ -3,10 +3,10 @@ package minefantasy.mfr.block;
 import minefantasy.mfr.config.ConfigHardcore;
 import minefantasy.mfr.init.MineFantasyBlocks;
 import minefantasy.mfr.init.MineFantasyItems;
-import minefantasy.mfr.init.MineFantasyKnowledgeList;
 import minefantasy.mfr.init.MineFantasyTabs;
 import minefantasy.mfr.item.ItemFilledMould;
 import minefantasy.mfr.mechanics.knowledge.ResearchLogic;
+import minefantasy.mfr.mechanics.knowledge.InformationList;
 import minefantasy.mfr.registry.recipe.CraftingManagerAlloy;
 import minefantasy.mfr.registry.recipe.IRecipeMFR;
 import minefantasy.mfr.tile.TileEntityCrucible;
@@ -81,7 +81,7 @@ public class BlockCrucible extends BlockTileEntity<TileEntityCrucible> {
 	public boolean onBlockActivated(final World world, BlockPos pos, IBlockState state, EntityPlayer player, EnumHand hand, EnumFacing side, float hitX, float hitY, float hitZ) {
 		TileEntityCrucible tile = (TileEntityCrucible) getTile(world, pos);
 		if (tile != null) {
-			if (!ResearchLogic.getResearchCheck(player, MineFantasyKnowledgeList.smelt_bronze)) {
+			if (!ResearchLogic.getResearchCheck(player, InformationList.getEntry("smelt_bronze"))) {
 				if (!world.isRemote && hand == player.getActiveHand()) {
 					player.sendMessage(new TextComponentTranslation("knowledge.unknownUse"));
 				}

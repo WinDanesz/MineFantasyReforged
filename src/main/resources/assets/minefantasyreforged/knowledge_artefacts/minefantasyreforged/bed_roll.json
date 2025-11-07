@@ -1,0 +1,9 @@
+{
+  "knowledge_entry": "bed_roll",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minecraft:bed"
+    }
+  ]
+}

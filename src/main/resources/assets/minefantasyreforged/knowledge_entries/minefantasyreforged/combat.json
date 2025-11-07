@@ -1,0 +1,12 @@
+{
+  "name": "combat",
+  "x": -5,
+  "y": 2,
+  "artefacts": 0,
+  "icon": {
+    "type": "item",
+    "id": "minecraft:iron_sword"
+  },
+  "parent": "stamina",
+  "unlocked": true
+}

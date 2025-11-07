@@ -1,0 +1,9 @@
+{
+  "knowledge_entry": "craft_armour_medium",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minecraft:leather"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "tool_rack",
+  "x": 2,
+  "y": 2,
+  "artefacts": 0,
+  "icon": {
+    "type": "block",
+    "id": "minefantasyreforged:tool_rack_wood"
+  },
+  "page": "construction",
+  "unlocked": true
+}

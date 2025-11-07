@@ -1,0 +1,13 @@
+{
+  "name": "climber",
+  "x": 7,
+  "y": 0,
+  "artefacts": 1,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:climbing_pick_basic"
+  },
+  "parent": "engineering_components",
+  "page": "engineering",
+  "unlocked": true
+}

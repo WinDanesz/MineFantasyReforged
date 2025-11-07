@@ -1,0 +1,12 @@
+{
+  "name": "generic_meat",
+  "x": 0,
+  "y": -2,
+  "artefacts": 0,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:generic_meat_uncooked"
+  },
+  "page": "provisioning",
+  "unlocked": true
+}

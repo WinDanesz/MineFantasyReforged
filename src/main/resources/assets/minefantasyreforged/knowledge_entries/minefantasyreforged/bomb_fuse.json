@@ -1,0 +1,13 @@
+{
+  "name": "bomb_fuse",
+  "x": 2,
+  "y": 2,
+  "artefacts": 0,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:bomb_fuse"
+  },
+  "parent": "bombs",
+  "page": "engineering",
+  "unlocked": true
+}

@@ -1,0 +1,18 @@
+{
+  "name": "apple_pie",
+  "x": 4,
+  "y": 1,
+  "artefacts": 2,
+  "icon": {
+    "type": "block",
+    "id": "minefantasyreforged:pie_apple"
+  },
+  "parent": "berry_pie",
+  "page": "provisioning",
+  "skills": [
+    {
+      "skill": "provisioning",
+      "level": 30
+    }
+  ]
+}

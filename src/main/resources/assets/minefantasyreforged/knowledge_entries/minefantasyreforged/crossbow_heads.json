@@ -1,0 +1,13 @@
+{
+  "name": "crossbow_heads",
+  "x": -2,
+  "y": -2,
+  "artefacts": 0,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:crossbow_arms_basic"
+  },
+  "parent": "crossbows",
+  "page": "engineering",
+  "unlocked": true
+}

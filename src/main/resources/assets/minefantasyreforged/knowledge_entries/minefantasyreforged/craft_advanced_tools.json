@@ -1,0 +1,13 @@
+{
+  "name": "craft_advanced_tools",
+  "x": -5,
+  "y": 2,
+  "artefacts": 0,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:standard_heavy_pick"
+  },
+  "parent": "craft_tools",
+  "page": "artisanry",
+  "unlocked": true
+}

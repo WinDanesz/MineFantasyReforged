@@ -1,0 +1,13 @@
+{
+  "knowledge_entry": "cake",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minefantasyreforged:flour"
+    },
+    {
+      "type": "item",
+      "id": "minecraft:egg"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "knowledge_entry": "coal_flux",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minecraft:coal"
+    },
+    {
+      "type": "item",
+      "id": "minefantasyreforged:flux"
+    }
+  ]
+}

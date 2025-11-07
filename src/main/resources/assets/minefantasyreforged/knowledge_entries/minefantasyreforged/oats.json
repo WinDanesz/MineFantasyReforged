@@ -1,0 +1,13 @@
+{
+  "name": "oats",
+  "x": 3,
+  "y": 0,
+  "artefacts": 0,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:oats"
+  },
+  "parent": "bread",
+  "page": "provisioning",
+  "unlocked": true
+}

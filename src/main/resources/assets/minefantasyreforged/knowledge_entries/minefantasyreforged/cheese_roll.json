@@ -1,0 +1,18 @@
+{
+  "name": "cheese_roll",
+  "x": 3,
+  "y": -2,
+  "artefacts": 2,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:cheese_roll"
+  },
+  "parent": "cheese",
+  "page": "provisioning",
+  "skills": [
+    {
+      "skill": "provisioning",
+      "level": 15
+    }
+  ]
+}

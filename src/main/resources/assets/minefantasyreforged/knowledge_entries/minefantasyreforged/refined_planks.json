@@ -1,0 +1,17 @@
+{
+  "name": "refined_planks",
+  "x": -1,
+  "y": 0,
+  "artefacts": 1,
+  "icon": {
+    "type": "block",
+    "id": "minefantasyreforged:refined_planks"
+  },
+  "page": "construction",
+  "skills": [
+    {
+      "skill": "construction",
+      "level": 0
+    }
+  ]
+}

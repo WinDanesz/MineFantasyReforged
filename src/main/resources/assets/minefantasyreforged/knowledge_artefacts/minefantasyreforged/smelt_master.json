@@ -1,0 +1,17 @@
+{
+  "knowledge_entry": "smelt_master",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minefantasyreforged:ancient_jewel_adamant"
+    },
+    {
+      "type": "item",
+      "id": "minefantasyreforged:ancient_jewel_mithril"
+    },
+    {
+      "type": "item",
+      "id": "minefantasyreforged:ancient_jewel_master"
+    }
+  ]
+}

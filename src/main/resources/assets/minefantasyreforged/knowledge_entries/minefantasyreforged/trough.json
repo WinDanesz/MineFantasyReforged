@@ -1,0 +1,13 @@
+{
+  "name": "trough",
+  "x": 0,
+  "y": -2,
+  "artefacts": 0,
+  "icon": {
+    "type": "block",
+    "id": "minefantasyreforged:trough_wood"
+  },
+  "parent": "bellows",
+  "page": "artisanry",
+  "unlocked": true
+}

@@ -1,0 +1,17 @@
+{
+  "name": "craft_ornate",
+  "x": -3,
+  "y": -1,
+  "artefacts": 1,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:ornate_items"
+  },
+  "page": "artisanry",
+  "skills": [
+    {
+      "skill": "artisanry",
+      "level": 35
+    }
+  ]
+}

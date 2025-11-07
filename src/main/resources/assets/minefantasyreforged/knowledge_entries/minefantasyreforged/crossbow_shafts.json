@@ -1,0 +1,13 @@
+{
+  "name": "crossbow_shafts",
+  "x": -6,
+  "y": 2,
+  "artefacts": 0,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:crossbow_stock_wood"
+  },
+  "parent": "crossbows",
+  "page": "engineering",
+  "unlocked": true
+}

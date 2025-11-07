@@ -1,0 +1,19 @@
+{
+  "name": "big_furnace",
+  "x": 0,
+  "y": 5,
+  "artefacts": 4,
+  "icon": {
+    "type": "block",
+    "id": "minefantasyreforged:furnace_stone"
+  },
+  "parent": "smelt_iron",
+  "page": "artisanry",
+  "special": true,
+  "skills": [
+    {
+      "skill": "artisanry",
+      "level": 10
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "cooking_utensils",
+  "x": -1,
+  "y": -1,
+  "artefacts": 0,
+  "icon": {
+    "type": "item",
+    "id": "minefantasyreforged:pie_tray"
+  },
+  "page": "provisioning",
+  "unlocked": true
+}

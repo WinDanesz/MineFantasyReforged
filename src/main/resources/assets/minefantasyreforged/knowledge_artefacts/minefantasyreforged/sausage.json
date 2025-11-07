@@ -1,0 +1,13 @@
+{
+  "knowledge_entry": "sausage",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minefantasyreforged:generic_meat_uncooked"
+    },
+    {
+      "type": "item",
+      "id": "minefantasyreforged:guts"
+    }
+  ]
+}

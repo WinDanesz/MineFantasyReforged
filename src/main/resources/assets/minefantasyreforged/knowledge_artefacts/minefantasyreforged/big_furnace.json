@@ -1,0 +1,25 @@
+{
+  "knowledge_entry": "big_furnace",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minecraft:iron_ingot"
+    },
+    {
+      "type": "block",
+      "id": "minecraft:furnace"
+    },
+    {
+      "type": "block",
+      "id": "minefantasyreforged:bloomery"
+    },
+    {
+      "type": "item",
+      "id": "minefantasyreforged:kaolinite"
+    },
+    {
+      "type": "item",
+      "id": "minecraft:coal"
+    }
+  ]
+}

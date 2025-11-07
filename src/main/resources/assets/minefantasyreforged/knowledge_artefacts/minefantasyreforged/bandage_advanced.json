@@ -1,0 +1,13 @@
+{
+  "knowledge_entry": "bandage_advanced",
+  "artefacts": [
+    {
+      "type": "block",
+      "id": "minecraft:wool"
+    },
+    {
+      "type": "item",
+      "id": "minecraft:leather"
+    }
+  ]
+}
