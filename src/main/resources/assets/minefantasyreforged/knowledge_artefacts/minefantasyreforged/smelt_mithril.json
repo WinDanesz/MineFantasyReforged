@@ -1,0 +1,13 @@
+{
+  "knowledge_entry": "smelt_mithril",
+  "artefacts": [
+    {
+      "type": "block",
+      "id": "minefantasyreforged:mythic_ore"
+    },
+    {
+      "type": "item",
+      "id": "minefantasyreforged:ancient_jewel_mithril"
+    }
+  ]
+}

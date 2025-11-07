@@ -1,0 +1,17 @@
+{
+  "knowledge_entry": "smelt_adamantium",
+  "artefacts": [
+    {
+      "type": "block",
+      "id": "minefantasyreforged:mythic_ore"
+    },
+    {
+      "type": "item",
+      "id": "minecraft:gold_ingot"
+    },
+    {
+      "type": "item",
+      "id": "minefantasyreforged:ancient_jewel_adamant"
+    }
+  ]
+}

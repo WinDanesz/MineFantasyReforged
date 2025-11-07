@@ -1,0 +1,9 @@
+{
+  "knowledge_entry": "bomb_crystal",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minecraft:diamond"
+    }
+  ]
+}

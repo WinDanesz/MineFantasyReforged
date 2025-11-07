@@ -1,0 +1,13 @@
+{
+  "knowledge_entry": "cheese_roll",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minecraft:bread"
+    },
+    {
+      "type": "item",
+      "id": "minefantasyreforged:cheese_slice"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "knowledge_entry": "eclair",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minecraft:egg"
+    }
+  ]
+}

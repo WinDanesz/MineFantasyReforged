@@ -1,0 +1,17 @@
+{
+  "knowledge_entry": "repair_advanced",
+  "artefacts": [
+    {
+      "type": "block",
+      "id": "minefantasyreforged:repair_basic"
+    },
+    {
+      "type": "item",
+      "id": "minecraft:slime_ball"
+    },
+    {
+      "type": "item",
+      "id": "minecraft:string"
+    }
+  ]
+}

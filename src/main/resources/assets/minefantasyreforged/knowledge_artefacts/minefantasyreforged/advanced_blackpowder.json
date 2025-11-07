@@ -1,0 +1,13 @@
+{
+  "knowledge_entry": "advanced_blackpowder",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minecraft:glowstone_dust"
+    },
+    {
+      "type": "item",
+      "id": "minecraft:redstone"
+    }
+  ]
+}

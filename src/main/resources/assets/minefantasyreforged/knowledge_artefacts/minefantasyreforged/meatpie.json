@@ -1,0 +1,13 @@
+{
+  "knowledge_entry": "meatpie",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minefantasyreforged:generic_meat_uncooked"
+    },
+    {
+      "type": "item",
+      "id": "minefantasyreforged:pastry"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "knowledge_entry": "sticky_bomb",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minecraft:slime_ball"
+    }
+  ]
+}

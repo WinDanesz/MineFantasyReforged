@@ -1,0 +1,17 @@
+{
+  "knowledge_entry": "repair_ornate",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minecraft:diamond"
+    },
+    {
+      "type": "item",
+      "id": "minecraft:gold_ingot"
+    },
+    {
+      "type": "block",
+      "id": "minefantasyreforged:repair_advanced"
+    }
+  ]
+}

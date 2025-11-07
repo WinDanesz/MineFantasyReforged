@@ -1,0 +1,9 @@
+{
+  "knowledge_entry": "smelt_encrusted",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minecraft:diamond"
+    }
+  ]
+}

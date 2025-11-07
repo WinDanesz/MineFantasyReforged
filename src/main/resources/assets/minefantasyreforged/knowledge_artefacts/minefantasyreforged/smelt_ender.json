@@ -1,0 +1,9 @@
+{
+  "knowledge_entry": "smelt_ender",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minecraft:ender_pearl"
+    }
+  ]
+}

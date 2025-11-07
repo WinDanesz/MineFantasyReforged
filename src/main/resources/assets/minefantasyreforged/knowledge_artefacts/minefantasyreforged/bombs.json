@@ -1,0 +1,17 @@
+{
+  "knowledge_entry": "bombs",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minefantasyreforged:blackpowder"
+    },
+    {
+      "type": "item",
+      "id": "minecraft:redstone"
+    },
+    {
+      "type": "item",
+      "id": "minecraft:string"
+    }
+  ]
+}

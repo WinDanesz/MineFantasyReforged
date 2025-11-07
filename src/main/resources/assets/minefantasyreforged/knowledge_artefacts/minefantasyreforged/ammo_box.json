@@ -1,0 +1,9 @@
+{
+  "knowledge_entry": "ammo_box",
+  "artefacts": [
+    {
+      "type": "block",
+      "id": "minecraft:chest"
+    }
+  ]
+}

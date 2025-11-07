@@ -1,0 +1,17 @@
+{
+  "knowledge_entry": "craft_armour_heavy",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minecraft:leather"
+    },
+    {
+      "type": "item",
+      "id": "minefantasyreforged:plate"
+    },
+    {
+      "type": "block",
+      "id": "minecraft:wool"
+    }
+  ]
+}

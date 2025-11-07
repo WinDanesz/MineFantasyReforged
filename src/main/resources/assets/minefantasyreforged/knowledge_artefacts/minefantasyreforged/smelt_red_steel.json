@@ -1,0 +1,21 @@
+{
+  "knowledge_entry": "smelt_red_steel",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minecraft:blaze_powder"
+    },
+    {
+      "type": "item",
+      "id": "minecraft:gold_ingot"
+    },
+    {
+      "type": "item",
+      "id": "minecraft:redstone"
+    },
+    {
+      "type": "item",
+      "id": "minefantasyreforged:flux_strong"
+    }
+  ]
+}

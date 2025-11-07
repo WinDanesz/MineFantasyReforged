@@ -1,0 +1,13 @@
+{
+  "knowledge_entry": "parachute",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minecraft:feather"
+    },
+    {
+      "type": "block",
+      "id": "minecraft:wool"
+    }
+  ]
+}

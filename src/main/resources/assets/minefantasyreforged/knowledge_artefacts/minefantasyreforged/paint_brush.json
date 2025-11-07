@@ -1,0 +1,9 @@
+{
+  "knowledge_entry": "paint_brush",
+  "artefacts": [
+    {
+      "type": "block",
+      "id": "minecraft:wool"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "knowledge_entry": "bomb_arrow",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minecraft:feather"
+    },
+    {
+      "type": "item",
+      "id": "minefantasyreforged:blackpowder"
+    }
+  ]
+}

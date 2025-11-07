@@ -1,0 +1,13 @@
+{
+  "knowledge_entry": "black_forest_cake",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minefantasyreforged:flour"
+    },
+    {
+      "type": "item",
+      "id": "minecraft:egg"
+    }
+  ]
+}

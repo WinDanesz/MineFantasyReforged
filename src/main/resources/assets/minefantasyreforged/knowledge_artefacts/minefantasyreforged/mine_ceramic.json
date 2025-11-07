@@ -1,0 +1,13 @@
+{
+  "knowledge_entry": "mine_ceramic",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minefantasyreforged:blackpowder"
+    },
+    {
+      "type": "block",
+      "id": "minecraft:stone_pressure_plate"
+    }
+  ]
+}

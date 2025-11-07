@@ -1,0 +1,9 @@
+{
+  "knowledge_entry": "shrapnel",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minecraft:flint"
+    }
+  ]
+}

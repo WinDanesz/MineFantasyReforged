@@ -1,0 +1,13 @@
+{
+  "knowledge_entry": "berry_pie",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minefantasyreforged:berries"
+    },
+    {
+      "type": "item",
+      "id": "minefantasyreforged:pastry"
+    }
+  ]
+}

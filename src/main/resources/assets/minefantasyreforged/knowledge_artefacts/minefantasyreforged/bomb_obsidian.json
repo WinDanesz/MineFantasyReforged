@@ -1,0 +1,9 @@
+{
+  "knowledge_entry": "bomb_obsidian",
+  "artefacts": [
+    {
+      "type": "block",
+      "id": "minecraft:obsidian"
+    }
+  ]
+}

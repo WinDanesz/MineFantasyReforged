@@ -1,0 +1,17 @@
+{
+  "knowledge_entry": "smelt_mithium",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minecraft:ghast_tear"
+    },
+    {
+      "type": "item",
+      "id": "minecraft:diamond"
+    },
+    {
+      "type": "item",
+      "id": "minefantasyreforged:ancient_jewel_adamant"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "knowledge_entry": "jerky",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minefantasyreforged:generic_meat_uncooked"
+    }
+  ]
+}

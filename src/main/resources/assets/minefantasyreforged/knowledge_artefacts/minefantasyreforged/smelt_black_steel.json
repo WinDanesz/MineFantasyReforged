@@ -1,0 +1,9 @@
+{
+  "knowledge_entry": "smelt_black_steel",
+  "artefacts": [
+    {
+      "type": "block",
+      "id": "minecraft:obsidian"
+    }
+  ]
+}

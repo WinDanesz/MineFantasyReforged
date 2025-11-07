@@ -1,0 +1,21 @@
+{
+  "knowledge_entry": "blackpowder",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minefantasyreforged:nitre"
+    },
+    {
+      "type": "item",
+      "id": "minefantasyreforged:sulfur"
+    },
+    {
+      "type": "item",
+      "id": "minecraft:coal"
+    },
+    {
+      "type": "item",
+      "id": "minecraft:gunpowder"
+    }
+  ]
+}

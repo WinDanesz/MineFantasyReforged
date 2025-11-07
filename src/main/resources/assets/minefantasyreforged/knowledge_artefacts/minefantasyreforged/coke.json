@@ -1,0 +1,13 @@
+{
+  "knowledge_entry": "coke",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minecraft:coal"
+    },
+    {
+      "type": "item",
+      "id": "minecraft:redstone"
+    }
+  ]
+}

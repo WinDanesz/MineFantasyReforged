@@ -1,0 +1,13 @@
+{
+  "knowledge_entry": "spyglass",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minefantasyreforged:bronze_gears"
+    },
+    {
+      "type": "block",
+      "id": "minecraft:glass"
+    }
+  ]
+}

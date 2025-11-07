@@ -1,0 +1,13 @@
+{
+  "knowledge_entry": "tungsten",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minefantasyreforged:ore_tungsten"
+    },
+    {
+      "type": "block",
+      "id": "minefantasyreforged:tungsten_ore"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "knowledge_entry": "arrows_broad",
+  "artefacts": [
+    {
+      "type": "item",
+      "id": "minecraft:feather"
+    },
+    {
+      "type": "item",
+      "id": "minecraft:flint"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "knowledge_entry": "smelt_iron",
+  "artefacts": [
+    {
+      "type": "block",
+      "id": "minecraft:iron_ore"
+    }
+  ]
+}
